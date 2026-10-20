@@ -8,7 +8,7 @@ app.get("/", function (req, res) {
         <p>Projeto de Desenvolvimento de Software em Nuvem</p>
         <ul>
             <li><a href="/produtos">Ver produtos</a></li>
-            <li><a href="/sobre">Sobre a equipe</a></li>
+            <li><a href="/sobre">Sobre o desenvolvedor</a></li>
             <li><a href="/consulta/teclado">Consultar um item</a></li>
             <li><a href="/cadastro/mouse">Cadastrar um produto</a></li>
         </ul>
@@ -31,8 +31,8 @@ app.get("/produtos", function (req, res) {
 // Nova rota: sobre
 app.get("/sobre", function (req, res) {
     res.send(`
-        <h1>Sobre a Equipe</h1>
-        <p>Integrantes: Nikolas Vianna De Carvalho</p>
+        <h1>Sobre o Desenvolvedor</h1>
+        <p>Aluno: Nikolas Vianna De Carvalho</p>
         <p>Disciplina: Desenvolvimento de Software em Nuvem</p>
         <a href="/">Voltar</a>
     `);
